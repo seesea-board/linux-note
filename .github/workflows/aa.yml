@@ -24,6 +24,10 @@ jobs:
         # You may pin to the exact commit or the version.
         # uses: tuliren/publish-gitbook@501146966c594d117ccc5479f63f2abfca264978
         uses: tuliren/publish-gitbook@v1.0.1
+        env:
+          # GitHub 会自动创建 GITHUB_TOKEN 密码以在工作流程中使用
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 设置时区，默认是格林尼治时间
         with:
           # Github token for the repo
-          github_token: ${{ secrets.TOKEN }}
+          github_token: ${{ GITHUB_TOKEN }}
