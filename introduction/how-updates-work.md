@@ -7,5 +7,3 @@
 Here's a few walkthroughs on how our different tools align and work with one another Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor.
 
 ## Example Tool Walkthrough
-
-{% embed url="https://www.youtube.com/watch?v=Bf1cLeFgMQ4" %}
