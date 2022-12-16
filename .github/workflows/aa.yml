@@ -1,11 +1,21 @@
 name: 'Gitbook Action Build'
 on:
+  # Runs on pushes targeting the default branch
   push:
-    branches:
-      - main  # trigger branch
+    branches: [$default-branch]
     paths-ignore:
       - '.github/**'
       - 'archive/**'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  
 jobs:
   build:
     runs-on: ubuntu-latest
