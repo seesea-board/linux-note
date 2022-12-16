@@ -20,7 +20,7 @@
     "search-pro",
     "hints", 
     "tabs",
-    "@iframely/embed.js"
+    "embed.js"
   ],
   "pluginsConfig": {
     "theme-default": {
@@ -69,6 +69,9 @@
       "twitter": true,
       "weibo": true,
       "qrcode": true
+    },
+    "embed.js": {
+      "url": "cdn.iframe.ly/embed.js"
     }
   },
   "pdf": {
