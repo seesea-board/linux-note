@@ -68,9 +68,6 @@
       "twitter": true,
       "weibo": true,
       "qrcode": true
-    },
-    "embed.js": {
-      "url": "cdn.iframe.ly/embed.js"
     }
   },
   "pdf": {
