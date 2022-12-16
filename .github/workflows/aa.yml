@@ -1,0 +1,151 @@
+- name: Gitbook Action
+  # You may pin to the exact commit or the version.
+  # uses: ZanderZhao/gitbook-action@6581a6a91a610e27befd2e1ba568148fe3a6c621
+  uses: ZanderZhao/gitbook-action@v1.2.4
+  with:
+    # Can be Token or Password for source_repo(clone token) and publish_repo(clone push token)
+    token: 
+    # Default GITHUB_ACTOR, If git name is different with github, please add
+    git_name: # optional
+    # Default **@users.noreply.github.com If git name is different with github, please add
+    git_email: # optional
+    # System Default, if set, like Asia/Shanghai
+    time_zone: # optional
+    # Default token, if not, please add (clone)
+    source_token: # optional
+    # Default git_name, if not, please add
+    source_git_name: # optional
+    # Default this GITHUB_REPOSITORY, if not please add like username/reponame 
+    source_repo: # optional
+    # default is github.com,can be gitlib.com  gitee.com ...
+    source_hub: # optional, default is github.com
+    # Default master
+    source_branch: # optional, default is master
+    # Where gitbook source. Default is root
+    source_dir: # optional, default is /
+    # Default false, if plugins need last edit time, set true
+    source_edit_time: # optional
+    # Default true, if you want to ignore file without prefix please set false
+    source_file_without_prefix: # default is true
+    # Default token, if not please add (clone push)
+    publish_token: # optional
+    # Default git_name, if not please add
+    publish_git_name: # optional
+    # Default git_email, if not please add
+    publish_git_email: # optional
+    # Default this GITHUB_REPOSITORY, if not please add like username/reponame
+    publish_repo: # optional
+    # Default Updated by gitbook-action and time, can use last commit message
+    publish_commit_message: # optional
+    # Default is github.com,can be gitlib.com gitee.com ...
+    publish_hub: # optional, default is github.com
+    # Defaule is gh-pages, auto create
+    publish_branch: # optional, default is gh-pages
+    # Default is root, if not add like docs or docs/gitbook ...
+    publish_dir: # optional, default is /
+    # set false will only one commit at publish_repo
+    publish_commit_history: # optional, default is true
+    # Default null, can set www.example.com example.com ...
+    publish_cname: # optional, default is null
+    # Default false, if set true, it will add .nojekyll for publish
+    publish_nojekyll: # optional, default is false
+    # Default false. Set true will enable git push force
+    publish_push_force: # optional
+    # Default true. Set false not remove last build but rewrite same file
+    publish_remove_last_build: # optional, default is true
+    # Default is 2.3.2, can choose from https://www.npmjs.com/package/gitbook-cli?activeTab=versions
+    gitbook_cli_version: # optional
+    # Default is 3.2.3, can choose from https://www.npmjs.com/package/gitbook?activeTab=versions
+    gitbook_version: # optional
+    # Set true will generate pdf file
+    gitbook_pdf: # optional
+    # Where the pdf to put. Default mybook, can change / for root, or myebook
+    gitbook_pdf_dir: # optional, default is mybook
+    # The name of your pdf. Default ebook
+    gitbook_pdf_name: # optional, default is ebook
+    # Set true will generate epub file
+    gitbook_epub: # optional
+    # 
+    gitbook_epub_dir: # optional, default is mybook
+    # 
+    gitbook_epub_name: # optional, default is ebook
+    # Set true will generate mobi file
+    gitbook_mobi: # optional
+    # 
+    gitbook_mobi_dir: # optional, default is mybook
+    # 
+    gitbook_mobi_name: # optional, default is ebook
+    # Default git_name, if not please add
+    source2_git_name: # optional
+    # Default token, if not please add (clone)
+    source2_token: 
+    # 
+    source2_hub: # optional, default is github.com
+    # Default null, if use please add like username/reponame, (same with source will replace, different will mix)
+    source2_repo: # optional, default is null
+    # 
+    source2_branch: # optional, default is master
+    # 
+    source2_dir: # optional, default is /
+    # Default false if plugins need last edit time, set true
+    source2_edit_time: # optional
+    # Default true, if you want to ignore file without prefix please set false
+    source2_file_without_prefix: # default is true
+    # Default git_name, if not please add
+    publish2_git_name: # optional
+    # Default token, if not please add (clone push)
+    publish2_token: 
+    # Default git_email, if not please add
+    publish2_git_email: # optional
+    # Default Updated by gitbook-action and time
+    publish2_commit_message: # optional
+    # 
+    publish2_hub: # optional, default is github.com
+    # Default null, if use please add like username/reponame
+    publish2_repo: # optional, default is null
+    # Default gh-pages
+    publish2_branch: # optional, default is gh-pages
+    # Default false, if set true, it will add .nojekyll for publish2
+    publish2_nojekyll: # optional, default is false
+    # 
+    publish2_dir: # optional, default is /
+    # Default null
+    publish2_cname: # optional, default is null
+    # Default false. Set true will enable git push force
+    publish2_push_force: # optional
+    # set false will only one commit at publish2_repo
+    publish2_commit_history: # optional, default is true
+    # Default true. Set false not remove last build but rewrite same file
+    publish2_remove_last_build: # optional, default is true
+    # Default git_name, if not please add
+    publish3_git_name: # optional
+    # Default token, if not please add (clone push)
+    publish3_token: 
+    # Default git_email, if not please add
+    publish3_git_email: # optional
+    # Default Updated by gitbook-action and time
+    publish3_commit_message: # optional
+    # 
+    publish3_hub: # optional, default is github.com
+    # Default null, if use please add like username/reponame
+    publish3_repo: # optional, default is null
+    # Default gh-pages
+    publish3_branch: # optional, default is gh-pages
+    # Default root
+    publish3_dir: # optional, default is /
+    # Default null
+    publish3_cname: # optional, default is null
+    # Default false, if set true, it will add .nojekyll for publish3
+    publish3_nojekyll: # optional, default is false
+    # Default false. Set true will enable git push force
+    publish3_push_force: # optional
+    # set false will only one commit at publish3_repo
+    publish3_commit_history: # optional, default is true
+    # Default true. Set false not remove last build but rewrite same file
+    publish3_remove_last_build: # optional, default is true
+    # Default false. Set true  will not remove working file
+    not_clean: # optional
+    # Install font for pdf
+    font_install: # optional
+    # Some install for prepare
+    prepare_install: # optional
