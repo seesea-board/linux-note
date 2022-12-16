@@ -2,7 +2,7 @@ name: 'Gitbook Action Build'
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: [main]
+    branches: [main000]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -20,7 +20,4 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Build and Publish GitBook
-        # You may pin to the exact commit or the version.
-        # uses: onejar99/gitbook-build-publish-action@923e35002958e9833f1efa5dd1c1d8a38cbd7409
-        uses: onejar99/gitbook-build-publish-action@v1.0.2
+   
