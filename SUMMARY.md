@@ -4,7 +4,8 @@
 
 ## Deploy CentOS
 
-* [yum env](deploy-centos/brand-guidelines.md)
+* [yum env](introduction/brand-guidelines.md)
+* [change ssh port](deploy-centos/change-ssh-port.md)
 
 ## identity
 
