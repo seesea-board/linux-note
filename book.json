@@ -19,8 +19,7 @@
     "-search",
     "search-pro",
     "hints", 
-    "tabs",
-    "embed.js"
+    "tabs"
   ],
   "pluginsConfig": {
     "theme-default": {
