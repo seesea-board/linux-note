@@ -20,8 +20,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Gitbook Action  
-        uses: seesea-board/gitbook-action@master  # -> or ZanderZhao/gitbook-action@master.  If not use master click above, use latest please 
-        with:                                   #    or fork this repo and use YourName/gitbook-action@master
-          token: ${{ secrets.GITHUB_TOKEN }}  # -> remember add this in settings/secrets as following
-          source_branch: main
+      - name: Build and Publish GitBook
+        # You may pin to the exact commit or the version.
+        # uses: onejar99/gitbook-build-publish-action@923e35002958e9833f1efa5dd1c1d8a38cbd7409
+        uses: onejar99/gitbook-build-publish-action@v1.0.2
