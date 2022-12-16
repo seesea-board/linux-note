@@ -28,6 +28,8 @@ jobs:
       uses: ZanderZhao/gitbook-action@v1.2.4
       with:
         # Can be Token or Password for source_repo(clone token) and publish_repo(clone push token)
-        token: ${{ secrets.PERSONAL_TOKEN }}
+        token: ${{ secrets.TOKEN }}
         source_branch: main
+        time_zone: Asia/Shanghai   # set time zone
+        source_edit_time: true     # source time
     
