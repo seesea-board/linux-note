@@ -20,7 +20,7 @@
     "search-pro",
     "hints", 
     "tabs",
-    "embed"
+    "github-embed"
   ],
   "pluginsConfig": {
     "theme-default": {
