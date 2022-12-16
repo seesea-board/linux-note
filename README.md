@@ -1,4 +1,4 @@
-# 🖌 Getting started
+# 🐔 Linux Rookie
 
 ## Welcome !
 

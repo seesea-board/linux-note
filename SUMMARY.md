@@ -1,10 +1,10 @@
 # Table of contents
 
-* [🖌 Getting star](README.md)
+* [🐔 Linux Rookie](README.md)
 
-## INTRODUCTION
+## Deploy CentOS
 
-* [Brand Guidelines](introduction/brand-guidelines.md)
+* [yum env](deploy-centos/brand-guidelines.md)
 
 ## identity
 
