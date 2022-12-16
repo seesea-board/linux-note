@@ -19,7 +19,8 @@
     "-search",
     "search-pro",
     "hints", 
-    "tabs"
+    "tabs",
+    "@iframely/embed.js"
   ],
   "pluginsConfig": {
     "theme-default": {
