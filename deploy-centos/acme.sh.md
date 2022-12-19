@@ -3,7 +3,6 @@
 ## Install acme.sh
 
 ```
-
 yum -y install socat
 wget -qO- get.acme.sh | bash 
 
