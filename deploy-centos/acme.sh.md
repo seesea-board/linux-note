@@ -9,7 +9,6 @@ wget -qO- get.acme.sh | bash
 
 # run acme.sh anywhere
 source ~/.bashrc
-
 ```
 
 ## Change ssl source
@@ -24,7 +23,7 @@ source ~/.bashrc
 1\. issue domain cert
 
 ```
-mydomain="*.abc.com”
+mydomain="*.abc.com"
 acme.sh --issue -d $mydomain --dns \
  --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
