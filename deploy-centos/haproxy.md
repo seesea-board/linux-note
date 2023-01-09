@@ -29,6 +29,7 @@ frontend ss-in
         default_backend ss-out
 backend ss-out
     server server1 0.0.0.0:443 maxconn 20480
- ">/etc/sysctl.conf
+ ">/etc/haproxy/haproxy.cfg
+ 
 
 ```

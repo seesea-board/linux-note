@@ -1,6 +1,6 @@
 # firewall-cmd
 
-### Add port
+### Add Port
 
 ```
 firewall-cmd --permanent --zone=public \
@@ -24,7 +24,7 @@ firewall-cmd --permanent --remove-rich-rule="rule family=ipv6 port protocol=tcp 
 
 ```
 
-### Add forward
+### Add Forward
 
 ```
 firewall-cmd --permanent --zone=public \
