@@ -11,6 +11,7 @@
 * [Haproxy](deploy-centos/haproxy.md)
 * [Acme.sh](deploy-centos/acme.sh.md)
 * [Steam Region Check](deploy-centos/steam-region-check.md)
+* [Network Check](deploy-centos/network-check.md)
 
 ## docker
 
