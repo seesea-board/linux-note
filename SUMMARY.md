@@ -10,6 +10,7 @@
 * [firewall-cmd](deploy-centos/firewall-cmd.md)
 * [Haproxy](deploy-centos/haproxy.md)
 * [Acme.sh](deploy-centos/acme.sh.md)
+* [Steam Region Check](deploy-centos/steam-region-check.md)
 
 ## docker
 
